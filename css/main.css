@@ -1,0 +1,23 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.main-header{
+    background: url(../assets/bg.gif);
+    background-size: cover;
+    min-height: 900px;
+    position: relative;
+}
+
+.background-overlay{
+    background: rgba(43, 50, 56, 0.678);
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
